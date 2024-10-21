@@ -5,7 +5,7 @@ def main():
     a = calc_average(num_list)
     b = find_min_max(num_list)
     c = sort_temperature(num_list)
-    d = calc_median_temperature(num_list)
+    d = calc_median_temperature(c)
     print("The average is: ", a)
     print("The minimum is: ", b[0])
     print("The maximum is: ", b[1])
